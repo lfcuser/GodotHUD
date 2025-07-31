@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://sm6au1w34hi7"]
+
+[ext_resource type="PackedScene" uid="uid://mq7t0yee8gx7" path="res://HUDScenes/ScoreLable.tscn" id="1_e7hmp"]
+
+[node name="Hud" type="Node"]
+
+[node name="BaseLable" parent="." instance=ExtResource("1_e7hmp")]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -10.5
+offset_right = 10.5
+offset_bottom = 61.0
+grow_horizontal = 2

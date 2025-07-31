@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://mq7t0yee8gx7"]
+
+[ext_resource type="FontFile" uid="uid://b0ohp2kujr23s" path="res://HUDAssets/StampatelloFaceto.otf" id="1_nle4b"]
+
+[node name="BaseLable" type="Label"]
+theme_override_fonts/font = ExtResource("1_nle4b")
+theme_override_font_sizes/font_size = 40
+text = "0"
